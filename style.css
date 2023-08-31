@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap');
+
+:root{
+    --background-color: #EAC696;
+    --primary-color: #765827;
+    font-family: 'Comfortaa', cursive;
+}
+
+body{
+    background: var(--background-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+body h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em
+}
+
+body h4 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mensagem{
+    margin-top: 2em;
+    display: grid;
+    gap: 1em;
+}
+
+.mensagem div{
+    font-size: 2em;
+}
+
+.box {
+    font-size: 5em;
+    margin-inline: auto;
+    display: inline-block;
+    padding: 0.3rem;
+    outline: 1px solid var(--primary-color);
+}
+
+.rejogar {
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 1em;
+    outline: 1px solid var(--primary-color);
+    border-radius: 2em;
+    margin-top: 1em;
+}
+
+.rejogar:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    outline: 1px solid var(--background-color);
+}
